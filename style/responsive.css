@@ -1,0 +1,41 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+        height: 50px;
+    }
+    main .filme1 .container .titulo {
+        font-size: 20px;
+    }
+    main .filme1 .container .botoes .botao i {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+    .botao {
+        padding-bottom: 25px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main .filme1 .container .titulo {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .filme1 .container .titulo .descricao {
+        margin: 0 0 0 0;
+    }
+    .filme1 .container .botoes .botao {
+        margin-top: -5px;
+        padding: 0 0 0 0;
+    }
+}
